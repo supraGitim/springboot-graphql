@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: spring-graphql
+  jpa:
+    open-in-view: true
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: 'create-drop'
+  graphql:
+    graphiql:
+      enabled: true
