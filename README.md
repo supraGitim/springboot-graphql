@@ -1,0 +1,1 @@
+This is a demo project to implement Graphql with Spring Boot
