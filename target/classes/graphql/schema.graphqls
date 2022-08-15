@@ -7,4 +7,13 @@ type Employee{
     id: ID!
     name: String
     email: String
+    address: Address
+}
+
+type Address{
+    addressId: ID!
+    streetName: String
+    city: String
+    state: String
+    pinCode: String
 }
