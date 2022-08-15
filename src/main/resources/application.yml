@@ -11,5 +11,6 @@ spring:
     hibernate:
       ddl-auto: 'create-drop'
   graphql:
+    path: /employee/graphql
     graphiql:
       enabled: true

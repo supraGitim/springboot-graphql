@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Controller
+@RequestMapping("/employee")
 public class EmployeeController {
 
     @Autowired
